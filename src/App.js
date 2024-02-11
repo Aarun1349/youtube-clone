@@ -1,21 +1,28 @@
 import "./App.css";
-import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
-import config from "./chatbot/config.js";
-import MessageParser from "./chatbot/MessageParser.js";
-import ActionProvider from "./chatbot/ActionProvider.js";
-import { BsFillSendFill } from "react-icons/bs";
-import { useState } from "react";
+// import Chatbot from "react-chatbot-kit";
+// import config from "./chatbot/config.js";
+// import MessageParser from "./chatbot/MessageParser.js";
+// import ActionProvider from "./chatbot/ActionProvider.js";
+// import { BsFillSendFill } from "react-icons/bs";
+// import { useState } from "react";
 function App() {
-  const [showChatBox, setShowChatBox] = useState(false);
-  const toggleChatBox = () => {
-    setShowChatBox(!showChatBox);
-  };
+  // const [showChatBox, setShowChatBox] = useState(false);
+  // const toggleChatBox = () => {
+  //   setShowChatBox(!showChatBox);
+  // };
   return (
-    <div className="App">
-      {showChatBox && (
+    <div>
+     
+    </div>
+  );
+}
+
+export default App;
+
+
+ {/* {showChatBox && (
         <div className="chatbot">
-          {" "}
           <Chatbot
             className="chatbot"
             config={config}
@@ -27,9 +34,4 @@ function App() {
       )}
       <button className="message-btn" onClick={() => toggleChatBox()}>
         <BsFillSendFill className="msg-icon" />
-      </button>
-    </div>
-  );
-}
-
-export default App;
+      </button> */}
