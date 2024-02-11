@@ -1,5 +1,6 @@
 import "./App.css";
 import "react-chatbot-kit/build/main.css";
+import Header from "./components/Header";
 // import Chatbot from "react-chatbot-kit";
 // import config from "./chatbot/config.js";
 // import MessageParser from "./chatbot/MessageParser.js";
@@ -11,17 +12,15 @@ function App() {
   // const toggleChatBox = () => {
   //   setShowChatBox(!showChatBox);
   // };
-  return (
-    <div>
-     
-    </div>
-  );
+  return <div>
+    <Header/>
+  </div>;
 }
 
 export default App;
 
-
- {/* {showChatBox && (
+// {
+  /* {showChatBox && (
         <div className="chatbot">
           <Chatbot
             className="chatbot"
@@ -34,4 +33,5 @@ export default App;
       )}
       <button className="message-btn" onClick={() => toggleChatBox()}>
         <BsFillSendFill className="msg-icon" />
-      </button> */}
+      </button> */
+// }
